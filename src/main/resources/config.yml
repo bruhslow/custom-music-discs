@@ -1,0 +1,32 @@
+# ===================================================
+# Custom Music Discs Configuration
+# ===================================================
+
+# Sound namespace used in sounds.json (e.g. custom_music:song_name)
+sound-namespace: "custom_music"
+
+# Default disc material to use for generated custom discs
+# Options: MUSIC_DISC_CAT, MUSIC_DISC_CHIRP, MUSIC_DISC_FAR, MUSIC_DISC_MALL,
+#          MUSIC_DISC_MELLOHI, MUSIC_DISC_STAL, MUSIC_DISC_STRAD, MUSIC_DISC_WARD,
+#          MUSIC_DISC_11, MUSIC_DISC_WAIT, MUSIC_DISC_OTHERSIDE, MUSIC_DISC_RELIC, etc.
+default-disc-material: "MUSIC_DISC_CAT"
+
+# Jukebox volume (Lower number = softer sound and tighter hearing radius. Default: 2.0)
+jukebox-volume: 2.0
+
+# Spawn musical note particles while a custom disc is playing in a Jukebox
+enable-note-particles: true
+
+# Allow portable playback (right-clicking disc in air)
+allow-portable-playback: true
+
+# ===================================================
+# Bedrock Edition & Geyser Support
+# ===================================================
+
+# Automatically build CustomMusicPack-Bedrock.mcpack for Bedrock Edition players
+enable-bedrock-pack: true
+
+# Automatically copy CustomMusicPack-Bedrock.mcpack into plugins/Geyser-Spigot/packs/
+auto-install-to-geyser: true
+

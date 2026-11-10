@@ -1,0 +1,17 @@
+name: CustomMusicDiscs
+version: 1.0.0
+main: me.giridharan.firstplugin.FirstPlugin
+api-version: '26.2'
+description: Custom Music Discs plugin
+
+commands:
+  music:
+    description: Custom music disc management
+    usage: /music disk generate <name> [player]
+    aliases: [mdisc, custommusic]
+    permission: custommusic.admin
+
+permissions:
+  custommusic.admin:
+    description: Allows creating music discs and managing music
+    default: op
